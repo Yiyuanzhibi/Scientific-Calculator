@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "店内满减优惠券计算",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+  "usingComponents": {
+   
+  }
+}

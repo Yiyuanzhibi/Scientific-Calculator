@@ -1,0 +1,59 @@
+/* pages/enger/index.wxss */
+page{
+    background-color:#f0d958 ;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px; left: 0px; 
+  background-size:100% 100%;
+  /*z-index 较大的元素会覆盖较小的元素在上层进行显示*/
+  z-index: -1;
+  filter: blur(1rpx);
+}
+.title{
+    font-family: youyuan;
+  font-weight: 1000;
+  color: #e9e9e9;
+  font-size: 40rpx;
+  margin-bottom: 40rpx;
+  margin-top: 40rpx;
+  align-items: center;
+}
+.title_food{
+    font-family: youyuan;
+    font-weight: 1000;
+    color: #e2e2e2;
+    font-size: 32rpx;
+   
+}
+.title_all{
+  font-family: youyuan;
+  font-weight: 1000;
+  color: #e2e2e2;
+  font-size: 32rpx;
+ 
+   
+}
+._after-title_food{
+    font-size: 28rpx;
+  font-family: SimSun ;
+  font-weight: 400;
+  color: #acacacee;
+  margin-bottom: 28rpx;
+}
+._after-title_all{
+    font-size: 28rpx;
+  font-family: SimSun ;
+  font-weight: 400;
+  color: #acacacee;
+  margin-bottom: 28rpx;
+}
+.tsx{
+  color:#e2e2e2;
+  font-family: youyuan;
+    font-weight: 1000;
+    font-size: 32rpx;
+   
+}

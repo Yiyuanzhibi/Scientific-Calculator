@@ -1,0 +1,60 @@
+/* pages/star/index.wxss */
+page {
+    padding-top: 54rpx;
+    background-color: #d5bcff;
+    padding-bottom: 60rpx;
+  }
+  
+  .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px; left: 0px; 
+    background-size:100% 100%;
+    /*z-index 较大的元素会覆盖较小的元素在上层进行显示*/
+    z-index: -1;
+  }
+  .title{
+    font-family: SimSun;
+  font-weight: 700;
+  color: #3b1064ad;
+  font-size: 46rpx;
+  margin-bottom: 40rpx;
+  margin-top: 40rpx;
+} 
+.intro {
+    margin: 30px;
+    text-align: center;
+  }
+.title_month{
+    font-family: SimSun;
+    font-weight: 500;
+    color: #000000a8;
+    font-size: 32rpx;
+   
+}
+.title_date{
+    font-family: SimSun;
+    font-weight: 500;
+    color: #000000a8;
+    font-size: 32rpx;
+}
+.month-input{
+    font-size: 28rpx;
+  font-family: SimSun ;
+  font-weight: 400;
+  color: #636363e3;
+ 
+}
+.date-input{
+    font-size: 28rpx;
+    font-family: SimSun ;
+    font-weight: 400;
+    color: #636363e3;
+    margin-bottom: 28rpx;
+
+}
+
+
+
+

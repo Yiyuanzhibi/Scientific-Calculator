@@ -1,0 +1,31 @@
+<!--pages/star/index.wxml-->
+<!--pages/enger/index.wxml-->
+
+<view class="index">
+<image class="bg" src="../../images/starback.JPG"></image>
+</view>
+
+
+<view class="container" style="width: 750rpx; height: 959rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+<view class="title">来看看你是什么星座吧！</view>
+<view class="title_month"   style="width: 416rpx; height: 64rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入查询星座的出生月份：</view>
+<view class="_after-title_month">
+      <view class="title_month_input">
+        <input style="width: 296rpx; height: 60rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="month-input" type="digit" bindinput="bindmonthinput" placeholder="请输入1-12范围内整数" />
+      </view>
+    </view>
+<view class="title_date"  style="width: 416rpx; height: 64rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入查询星座的出生日期：</view>
+<view class="_after-title_date">
+      <view class="title_date_input">
+        <input style="width: 296rpx; height: 50rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="date-input" type="digit" bindinput="binddateinput" placeholder="请输入1-31范围内整数" />
+      </view>
+    </view>
+    <view class="btn-area">
+        <button style="margin: 30rpx 0; position: relative; left: -6rpx; top: -29rpx; width: 206rpx; height: 82rpx; display: block; box-sizing: border-box" type="primary" formType="submit" bindtap="bindstar"  >确认</button>
+      </view>
+
+      <text style="width: 296rpx; height: 46rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">你的星座为：{{star}}</text>
+      <text>{{ted}}</text>
+</view>
+
+

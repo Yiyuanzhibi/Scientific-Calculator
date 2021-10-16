@@ -1,0 +1,39 @@
+<!-- 这是个日期间隔查询界面  -->
+<view class="index">
+<image class="bg" src="../../images/date2.JPG"></image>
+</view>
+<view class="container">
+<view class="viewStart" style="width: 339rpx; height: 667rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+  <view class="title_1" style="position: relative; left: 0rpx; top: -66rpx">选择生产日期</view>
+  <picker mode="date" value="{{date}}" start="1900-01-01" end="2050-01-01" bindchange="bindDateChangeStart">
+    <view class="picker" style="position: relative; left: 4rpx; top: -78rpx">
+      当前选择: {{date}}
+    </view>
+  </picker>
+  <view class="title_1" style="position: relative; left: 0rpx; top: -74rpx">选择当前日期</view>
+  <picker mode="date" value="{{dateEnd}}" start="1980-01-01" end="2050-01-01" bindchange="bindDateChangeEnd">
+    <view class="picker" style="position: relative; left: 6rpx; top: -78rpx">
+      当前选择: {{dateEnd}}
+    </view>
+  </picker>
+
+  
+  <button style="margin: 30rpx 0; width: 211rpx; height: 88rpx; display: block; box-sizing: border-box; left: 65rpx; top: -66rpx; position: relative" type="default" formType="submit" bindtap="btnGetDays"  >确认无误</button>
+<view class="viewEnd">
+
+<view class="title_1" style="position: relative; left: 0rpx; top: -73rpx">请输入保质时间</view>
+<view class="_after-title_bzq">
+      <view class="title_bzq_input">
+        <input class="bzq-input" type="number" bindinput="bindbzqinput" placeholder="请输入一个非负数" style="position: relative; left: 4rpx; top: -78rpx" />
+      </view>
+    </view>
+</view>
+
+<view class="btn-area">
+        <button style="margin: 30rpx 0; width: 206rpx; height: 88rpx; display: block; box-sizing: border-box; left: 62rpx; top: -98rpx; position: relative" type="default" formType="submit" bindtap="bindstar"  >确认</button>
+      </view>
+      <text class="title_2" style="position: relative; left: 64rpx; top: -95rpx">还有{{hydst}}天过期</text>
+    </view>
+  </view>
+
+

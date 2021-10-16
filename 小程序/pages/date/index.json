@@ -1,0 +1,12 @@
+{
+    
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "日期转换器",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+      "cloud-tip-modal": "/components/cloudTipModal/index"
+  }
+ 
+}

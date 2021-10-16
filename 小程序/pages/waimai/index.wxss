@@ -1,0 +1,38 @@
+/* pages/waimai/index.wxss */
+page {
+    padding-top: 54rpx;
+    background-color: #4299EA;
+    padding-bottom: 60rpx;
+    text-align: center;
+  }
+  .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px; left: 0px; 
+    background-size:100% 100%;
+    /*z-index 较大的元素会覆盖较小的元素在上层进行显示*/
+    z-index: -1;
+  }
+.title_zj{
+    color:aliceblue;
+    font-weight: 40rpx;
+    font-size: 500;
+    font-family:simsum ;
+}
+.title_p1{
+    color:aliceblue;
+    font-weight: 36rpx;
+    font-size: 400;
+    font-family:simsum ;
+}
+.zj-input{
+    color:rgb(216, 216, 216);
+    font-family:simsum ;
+}
+.tap{
+    color:aliceblue;
+    font-weight: 36rpx;
+    font-size: 400;
+    font-family:simsum ;
+}

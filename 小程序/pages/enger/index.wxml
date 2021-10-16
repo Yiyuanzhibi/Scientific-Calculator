@@ -1,0 +1,26 @@
+<!--pages/enger/index.wxml-->
+<view class="index">
+<image class="bg" src="../../images/engel.jpG"></image>
+</view>
+<view class="container" style="width: 750rpx; height: 992rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+<view class="title" style="width: 720rpx; height: 186rpx; display: block; top: NaNrpx; box-sizing: border-box; left: NaNrpx"> </view>
+<view class="title_food"  style="width: 454rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入这段时间你的食品支出：</view>
+<view class="_after-title_food">
+      <view class="title_food_input">
+        <input style="width: 256rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="food-input" type="digit" bindinput="bindfoodinput" placeholder="请输入一个非负数" />
+      </view>
+    </view>
+<view class="title_all"  style="width: 454rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入这段时间你的总支出：</view>
+<view class="_after-title_all">
+      <view class="title_all_input">
+        <input style="width: 246rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="all-input" type="digit" bindinput="bindallinput" placeholder="请输入一个非负数" />
+      </view>
+    </view>
+    <view class="btn-area">
+        <button style="margin: 30rpx 0; width: 208rpx; height: 88rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx" type="primary" formType="submit" bindtap="bindenger"  >确认</button>
+      </view>
+      <text class="tsx"style="width: 454rpx; height: 84rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" style="width: 454rpx; height: 80rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">你这段时间的恩格尔系数为：{{enger}}</text>
+      <text class="tsx"style="width: 454rpx; height: 57rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">你这段时间的生活水平为：{{x}}</text>
+</view>
+
+
