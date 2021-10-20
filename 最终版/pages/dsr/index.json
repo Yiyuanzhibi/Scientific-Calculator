@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "倒数日计算",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+  "usingComponents": {}
+}

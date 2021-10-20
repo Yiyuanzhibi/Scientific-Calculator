@@ -1,0 +1,30 @@
+<!-- 这是个日期间隔查询界面  -->
+<view class="index">
+<image class="bg" src="../../images/date3.JPG"></image>
+</view>
+<view class="container">
+<view class="viewStart" style="width: 394rpx; height: 498rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+
+  <input class="price-input" type="text" bindinput="bindpriceinput3" placeholder="请输入目标事件" />
+
+<view class="title_1">选择当前日期</view>
+<picker mode="date" value="{{date}}" start="1900-01-01" end="2050-01-01" bindchange="bindDateChangeStart">
+  <view class="picker">
+    当前选择: {{date}}
+  </view>
+</picker>
+<view class="title_2">选择目标事件日期</view>
+<picker mode="date" value="{{dateEnd}}" start="1980-01-01" end="2050-01-01" bindchange="bindDateChangeEnd">
+  <view class="picker2">
+    当前选择: {{dateEnd}}
+  </view>
+</picker>
+
+
+
+<button  class="btn" bindtap="btnGetDays" style="width: 214rpx; height: 90rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx; position: relative">确认</button>
+
+<view class="day">距离{{target}}还有{{days}}天</view>
+</view>
+
+</view>

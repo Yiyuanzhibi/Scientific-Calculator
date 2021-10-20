@@ -1,0 +1,56 @@
+<!--pages/dnzk/index.wxml-->
+<view class="index">
+<image class="bg" src="../../images/double11.JPG"></image>
+</view>
+<view class="container">
+
+<view class="title_discount"  style="width: 522rpx; height: 39rpx; display: block; box-sizing: border-box; left: 4rpx; top: -22rpx; position: relative">请输入这家店铺的店内折扣：</view>
+<view class="_after-title_discount">
+      <view class="title_discount_input">
+        <input style="width: 511rpx; height: 50rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="discount-input" type="digit" bindinput="binddiscountinput" placeholder="请输入一个0-1的小数" placeholder-style="aliceblue"/>
+      </view>
+    </view>
+<view class="title_pieces"  style="width: 612rpx; height: 48rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入参与店内折扣的最少商品件数：</view>
+<view class="_after-title_pieces" style="width: 518rpx; height: 48rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+      <view class="title_pieces_input">
+        <input class="pieces-input" type="digit" bindinput="bindpiecesinput" placeholder="请输入一个正整数" />
+      </view>
+    </view>
+<view class="title_price" >请输入你在这家店内购买的商品的价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 516rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="digit" bindinput="bindpriceinput1" placeholder="请输入一个非负数" />
+      </view>
+    </view>
+    <view class="title_price" >请输入你在这家店内购买的商品的价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 538rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="digit" bindinput="bindpriceinput2" placeholder="若输入结束，请在剩余的价格框中填0" />
+      </view>
+    </view>
+    <view class="title_price"  style="width: 620rpx; height: 48rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入你在这家店内购买的商品的价格：</view>
+<view class="_after-title_price" style="width: 544rpx; height: 39rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+      <view class="title_price_input">
+        <input style="width: 570rpx; height: 42rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="digit" bindinput="bindpriceinput3" placeholder="若输入结束，请在剩余的价格框中填0" />
+      </view>
+    </view>
+    <view class="title_price"  style="width: 620rpx; height: 48rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入你在这家店内购买的商品的价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 534rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="digit" bindinput="bindpriceinput4" placeholder="若输入结束，请在剩余的价格框中填0" />
+      </view>
+    </view>
+    <view class="title_price" >请输入你在这家店内购买的商品的价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 536rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="digit" bindinput="bindpriceinput5" placeholder="若输入结束，请在剩余的价格框中填0" />
+      </view>
+    </view>
+    <view class="btn-area">
+        <button style="margin: 30rpx 0" type="primary" formType="submit" bindtap="bindresult"  >提交</button>
+      </view>
+      <text class="tap">你在这家店铺共获得优惠：{{result1}}</text>
+      <text class="tap">你在这家店铺需支付：{{result2}}</text>
+  
+</view>
+

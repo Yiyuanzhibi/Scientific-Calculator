@@ -1,0 +1,53 @@
+<!--pages/waimai/index.wxml-->
+<view class="index">
+<image class="bg" src="../../images/waimai.JPG"></image>
+</view>
+<view class="container">
+
+<view class="title_zj"  style="width: 433rpx; height: 40rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入订单总价：</view>
+<view class="_after-title_zj">
+      <view class="title_zj_input">
+        <input style="width: 592rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="zj-input" type="number" bindinput="bindzjinput" placeholder="请输入一个非负数" placeholder-style="color:rgb(216, 216, 216);" />
+      </view>
+    </view>
+<view class="title_p1" >请拼单人1号输入商品原价：</view>
+<view class="_after-title_p1">
+      <view class="title_p1_input">
+        <input style="width: 592rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="p1-input" type="number" bindinput="bindp1input" placeholder="请输入一个非负数" placeholder-style="color:rgb(216, 216, 216);"/>
+      </view>
+    </view>
+<view class="title_p1" >请输入拼单人2号商品原价：</view>
+<view class="_after-title_p2">
+      <view class="title_p2_input">
+        <input style="width: 598rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="p1-input" type="number" bindinput="bindp2input" placeholder="请输入一个非负数"placeholder-style="color:rgb(216, 216, 216);" />
+      </view>
+    </view>
+    <view class="title_p1" >请输入拼单人3号商品原价：</view>
+<view class="_after-title_p3">
+      <view class="title_p3_input">
+        <input style="width: 594rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="p1-input" type="number" bindinput="bindp3input" placeholder="若输入结束，请在剩余的价格框中填充0"placeholder-style="color:rgb(216, 216, 216);" />
+      </view>
+    </view>
+    <view class="title_p1" >请输入拼单人4号商品原价：</view>
+<view class="_after-title_p4">
+      <view class="title_p4_input">
+        <input style="width: 592rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="p1-input" type="number" bindinput="bindp4input" placeholder="若输入结束，请在剩余的价格框中填充0"placeholder-style="color:rgb(216, 216, 216);" />
+      </view>
+    </view>
+    <view class="title_p1" >请输入拼单人5号商品原价：</view>
+<view class="_after-title_p5">
+      <view class="title_p5_input">
+        <input style="width: 594rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="p1-input" type="number" bindinput="bindp5input" placeholder="若输入结束，请在剩余的价格框中填充0"placeholder-style="color:rgb(216, 216, 216);" />
+      </view>
+    </view>
+    
+    <view class="btn-area">
+        <button style="margin: 30rpx 0; width: 187rpx; height: 78rpx; display: block; box-sizing: border-box; left: 2rpx; top: -20rpx; position: relative" type="primary" formType="submit" bindtap="bindresult"  >提交</button>
+      </view>
+      <text class="tap" style="position: relative; left: 1rpx; top: -38rpx">拼单人1号应付款：{{result1}}</text>
+      <text class="tap" style="position: relative; left: 1rpx; top: -37rpx">拼单人2号应付款：{{result2}}</text>
+      <text class="tap" style="position: relative; left: 1rpx; top: -37rpx">拼单人3号应付款：{{result3}}</text>
+      <text class="tap" style="position: relative; left: 0rpx; top: -37rpx">拼单人4号应付款：{{result4}}</text>
+      <text class="tap" style="position: relative; left: 0rpx; top: -37rpx">拼单人5号应付款：{{result5}}</text>
+     
+</view>

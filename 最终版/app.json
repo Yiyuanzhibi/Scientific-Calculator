@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/scientificcalculator/index",
+    "pages/double11/index",
+    "pages/dnzk/index",
+    "pages/dnmjyhq/index",
+    "pages/kdmjjt/index",
+    "pages/enger/index",
+    "pages/date/index",
+    "pages/star/index",
+    "pages/bzq/index",
+    "pages/dsr/index",
+    "pages/waimai/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Y&Y",
+    "navigationBarTextStyle":"black"
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

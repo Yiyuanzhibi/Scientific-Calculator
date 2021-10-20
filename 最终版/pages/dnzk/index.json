@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "店内折扣计算",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+      "cloud-tip-modal": "/components/cloudTipModal/index"
+  }
+}

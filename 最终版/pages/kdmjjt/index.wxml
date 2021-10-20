@@ -1,0 +1,58 @@
+<!--pages/dnmjyhq/index.wxml-->
+<view class="index">
+<image class="bg" src="../../images/double11.JPG"></image>
+</view>
+<view class="container">
+
+<view class="title_yhq"  style="width: 390rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">请输入满减津贴的最低金额：</view>
+<view class="_after-title_yhq">
+      <view class="title_yhq_input">
+        <input style="width: 488rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="yhq-input" type="number" bindinput="bindyhqinput" placeholder="请输入一个正整数" />
+      </view>
+    </view>
+<view class="title_deep" >请输入满减津贴的优惠金额：</view>
+<view class="_after-title_deep">
+      <view class="title_deep_input">
+        <input style="width: 488rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="deep-input" type="number" bindinput="binddeepinput" placeholder="请输入一个正整数" />
+      </view>
+    </view>
+<view class="title_price" >请输入符合本满减津贴的商品价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 578rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="number" bindinput="bindpriceinput1" placeholder="请输入一个非负数" />
+      </view>
+    </view>
+    <view class="title_price" >请输入符合本满减津贴的商品价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 580rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="number" bindinput="bindpriceinput2" placeholder="若输入结束，请在剩余的价格框中填充0" />
+      </view>
+    </view>
+    <view class="title_price" >请输入符合本满减津贴的商品价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 584rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="number" bindinput="bindpriceinput3" placeholder="若输入结束，请在剩余的价格框中填充0" />
+      </view>
+    </view>
+    <view class="title_price" >请输入符合本满减津贴的商品价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 580rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="number" bindinput="bindpriceinput4" placeholder="若输入结束，请在剩余的价格框中填充0" />
+      </view>
+    </view>
+    <view class="title_price" >请输入符合本满减津贴的商品价格：</view>
+<view class="_after-title_price">
+      <view class="title_price_input">
+        <input style="width: 578rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="price-input" type="number" bindinput="bindpriceinput5" placeholder="若输入结束，请在剩余的价格框中填充0" />
+      </view>
+    </view>
+    <view class="btn-area">
+        <button style="margin: 30rpx 0; width: 187rpx; height: 78rpx; display: block; box-sizing: border-box; left: 2rpx; top: -20rpx; position: relative" type="primary" formType="submit" bindtap="bindresult"  >提交</button>
+      </view>
+      <text class="tap" style="position: relative; left: 1rpx; top: -38rpx">商品1取得的优惠：{{result1}}</text>
+      <text class="tap" style="position: relative; left: 1rpx; top: -37rpx">商品2取得的优惠：{{result2}}</text>
+      <text class="tap" style="position: relative; left: 1rpx; top: -37rpx">商品3取得的优惠：{{result3}}</text>
+      <text class="tap" style="position: relative; left: 0rpx; top: -37rpx">商品4取得的优惠：{{result4}}</text>
+      <text class="tap" style="position: relative; left: 0rpx; top: -37rpx">商品5取得的优惠：{{result5}}</text>
+      <text class="tap" style="position: relative; left: -1rpx; top: -37rpx">需付总金额：{{result6}}</text>
+</view>

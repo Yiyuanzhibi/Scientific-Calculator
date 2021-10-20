@@ -1,0 +1,12 @@
+{
+    
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "双十一优惠计算器",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "usingComponents": {
+            "cloud-tip-modal": "/components/cloudTipModal/index"
+        }
+       
+  }
